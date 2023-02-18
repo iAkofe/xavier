@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.xavier__navbar {
+    display: fixed;
+    top: 0;
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+
+.xavier__navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.xavier__navbar-container a img {
+    height: 36px;
+    width: 130.96px;
+}
+
+.xavier__navbar-container_link,
+.xavier__navbar-container_search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.xavier__navbar-container_link li,
+.xavier__navbar-container_search li {
+    margin-right: 3rem;
+    cursor: pointer;
+}
+
+.xavier__navbar-container_link li a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}

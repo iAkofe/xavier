@@ -1,0 +1,35 @@
+.xavier__newsletter {
+    padding: 10rem 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.xavier__newsletter h2 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 49px;
+}
+
+.xavier__newsletter p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 1.5rem;
+}
+
+
+.xavier__newsletter-mail input {
+    background: transparent;
+    padding: 5px 15px;
+    margin-top: 2rem;
+    border: 1px solid #225577;
+    color: #225577;
+    font-size: 14px;
+    width: 25vw;
+}
+.xavier__newsletter-mail button {
+    color: #225577;
+    margin-left: -4.5rem;
+}

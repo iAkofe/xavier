@@ -1,0 +1,48 @@
+.xavier__collection {
+    background: #E4E7EA;
+    width: 100%;
+    padding: 5rem 8rem 6rem;
+}
+
+.xavier__collection-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.xavier__collection-link h2 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 49px;
+}
+
+.xavier__collection-link a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 49px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.xavier__collection-grid {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1.5fr);
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.xavier__collection-grid_item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 1.5rem;
+}
+
+.xavier__collection-grid_price {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 1.5rem;
+}
